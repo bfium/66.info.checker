@@ -17,7 +17,7 @@ class Config:
     
     # Local LLM
     LOCAL_LLM_URL = os.getenv("LOCAL_LLM_URL", "http://localhost:11434")
-    LOCAL_LLM_MODEL = os.getenv("LOCAL_LLM_MODEL", "llama2")
+    LOCAL_LLM_MODEL = os.getenv("LOCAL_LLM_MODEL", "qwen3:8b")
     
     # Provider par défaut
     DEFAULT_LLM_PROVIDER = os.getenv("DEFAULT_LLM_PROVIDER", "openai")
